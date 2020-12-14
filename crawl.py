@@ -1,5 +1,6 @@
 import wikipediaapi
 import random, time
+
 def read_exclude_cats(filename='exclude_cats.txt'):
     with open(filename) as f:
         content = f.readlines()
