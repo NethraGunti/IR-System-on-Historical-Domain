@@ -19,7 +19,7 @@ https://github.com/NethraGunti/IR-System-on-Historical-Domain
 Drive Link For the Dataset
 ------------------------------
 
-uiwhxduiswxduijsij
+https://drive.google.com/drive/folders/1rexOv4GayD3v2CEqbDinUqHhqOx869a6?usp=sharing
 
 ------------------------------
 KEY POINTS TO REMEMBER
