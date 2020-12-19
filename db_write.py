@@ -25,17 +25,24 @@ def process_doc(docname):
     content = re.sub(newline, " ", content)
     content = clean.sub(" ", content)
     content = re.sub("'", "", content)
-    pre_data = pre_process(content)
+    content = content.lower()
+    # pre_data = pre_process(content)
     # print(pre_data)
-    return len(pre_data)
+    tokens = delim.split(content)[1:-1]
+    tokens = pre_process(tokens)
+    return len(tokens)
 
-def pre_process(query):
+
+def pre_process(tokens):
     stop_words = set(stopwords.words('english'))
     stop_words.remove('of')
     # print(stop_words)
-    word_tokens = word_tokenize(query)
-    filtered_sentence = [w for w in word_tokens if not w in stop_words]
-    return filtered_sentence
+    new_tokens = []
+    for token in tokens:
+        if token not in stop_words:
+            new_tokens.append(token)
+    return new_tokens
+
 
 
 con = sqlite3.connect('inforet.db')

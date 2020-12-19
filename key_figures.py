@@ -11,9 +11,9 @@ order = {key: i for i, key in enumerate(precedence)}
 
 
 def figures(text):
-    start = time.time()
+    # start = time.time()
     doc = nlp(text)
-    print(f"Time taken: {time.time()-start} sec")
+    # print(f"Time taken: {time.time()-start} sec")
     kf = set((X.text, X.label_)
              for X in doc.ents if X.label_ == "PERSON" or X.label_ == "ORG" or X.label_ == "NORP")
     return list(sorted(kf, key=lambda x: order[x[1]]))
