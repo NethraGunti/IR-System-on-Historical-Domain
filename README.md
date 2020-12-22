@@ -1,6 +1,6 @@
 _______________________________________________________________________________________________________
 
-INFORMATION  &nbsp;  RETRIEVAL  &nbsp;  SYSTEM  &nbsp;  ON  &nbsp;  HISTORICAL  &nbsp;  DOMAIN
+I N F O R M A T I O N  &nbsp;  R E T R I E V A L  &nbsp;  S Y S T E M  &nbsp;  O N  &nbsp;  H I S T O R I C A L  &nbsp;  D O M A I N
 _______________________________________________________________________________________________________
 
 Contributors
